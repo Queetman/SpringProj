@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Configuration;
 import java.time.LocalDate;
 
 @Configuration
+
+//Здесь добавлдено автоматическое сканирование. т.е при запросе к этому классу, сканируется "exampleOne.entities"
+// и создаются бины классоов в директории
 @ComponentScan("exampleOne.entities")
 public class DayOfWeek {
 
